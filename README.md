@@ -1,22 +1,19 @@
-После клонирования проекта для запуска используйте следующие команды
+After cloning the project, use the following commands to run
 
     
-'python manage.py makemigrations'
+'python manage.py make migrations'
   
   
 'python manage.py migrate'
   
   
-'python manage.py first_csv --path markets/scripts/location.csv' Для заполнения городов
+'python manage.py first_csv --path to markets/scripts/location.csv' To fill in cities
   
   
-'python manage.py second_csv --path markets/scripts/product.csv' Для заполнения продуктов
+'python manage.py second_csv --path to markets/scripts/product.csv' To fill in products
   
 
-Для входа в админку создать юзера по команде
-  
-  
-'python manage.py cratesuperuser'
+To enter the admin panel, create a user on command
 
 
-
+- python will cope.py cratesuperuser - superuser'
